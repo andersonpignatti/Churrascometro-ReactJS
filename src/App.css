@@ -8,17 +8,20 @@
   margin-bottom: 0rem;
 }
 
-
+body {
+  background-color: whitesmoke;
+}
 
 .App-header {
-  background-color: whitesmoke;
-  min-height: 100vh;
+  
+  padding-top: 3REM;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
@@ -53,3 +56,18 @@ h1 {
   box-shadow: brown, 3px, 3px,3px;
 }
 
+button {
+  padding-left: 3rem;
+  padding-right: 3rem;
+  
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: brown;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-color: white;
+  border-radius: 5px;
+  
+
+}
