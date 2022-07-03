@@ -10,9 +10,9 @@ function App() {
       <h1>Calculadora de Churrasco</h1>
   
   
-      <p>Adultos<input type="text" id="adultos" placeholder="Quantidade de adultos"></input></p>
-      <p>Crianças<input type="text" id="crianças" placeholder="Quantidade de crianças"></input></p>
-      <p>Duração<input type="tel" id="duração" placeholder="Duração do evento em horas"></input></p>
+      <p>Adultos<input type="number" id="adultos" placeholder="Quantidade de adultos"></input></p>
+      <p>Crianças<input type="number" id="crianças" placeholder="Quantidade de crianças"></input></p>
+      <p>Duração<input type="number" id="duração" placeholder="Duração do evento em horas"></input></p>
       <button id="botao" onclick={'enviar'}>CALCULAR</button>
       </header>
     </div>
